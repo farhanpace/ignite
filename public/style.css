@@ -551,11 +551,11 @@ video {
 .mt-24 {
   margin-top: 6rem;
 }
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .ml-2 {
   margin-left: 0.5rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .block {
   display: block;
@@ -563,17 +563,20 @@ video {
 .flex {
   display: flex;
 }
-.h-screen {
-  height: 100vh;
+.h-96 {
+  height: 24rem;
 }
 .h-48 {
   height: 12rem;
 }
+.h-screen {
+  height: 100vh;
+}
 .w-48 {
   width: 12rem;
 }
-.w-1\/2 {
-  width: 50%;
+.w-auto {
+  width: auto;
 }
 .w-fit {
   width: -webkit-fit-content;
@@ -583,17 +586,14 @@ video {
 .w-1\/4 {
   width: 25%;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-full {
   width: 100%;
 }
 .w-1\/5 {
   width: 20%;
-}
-.basis-1 {
-  flex-basis: 0.25rem;
-}
-.basis-1\/5 {
-  flex-basis: 20%;
 }
 .-rotate-3 {
   --tw-rotate: -3deg;
@@ -603,14 +603,17 @@ video {
   --tw-rotate: 3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
-.justify-center {
-  justify-content: center;
-}
 .border-b {
   border-bottom-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
 }
 .border-igniteGreen {
   --tw-border-opacity: 1;
@@ -632,6 +635,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 90 250 / var(--tw-bg-opacity));
 }
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
 .bg-\[url\(\'img\/ignite-symbol-audio\.png\'\)\] {
   background-image: url('img/ignite-symbol-audio.png');
 }
@@ -640,9 +646,6 @@ video {
 }
 .bg-\[url\(\'img\/ignite-symbol-advertising\.png\'\)\] {
   background-image: url('img/ignite-symbol-advertising.png');
-}
-.bg-\[url\(\'img\/ignite-symbol-video\.png\'\)\] {
-  background-image: url('img/ignite-symbol-video.png');
 }
 .bg-\[length\:744px_484px\] {
   background-size: 744px 484px;
@@ -668,6 +671,9 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -675,6 +681,13 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.pt-6 {
+  padding-top: 1.5rem;
 }
 .text-center {
   text-align: center;
@@ -708,4 +721,75 @@ video {
 .text-igniteMagenta {
   --tw-text-opacity: 1;
   color: rgb(255 50 100 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+
+  .md\:h-48 {
+    height: 12rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-1\/5 {
+    width: 20%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:bg-opacity-100 {
+    --tw-bg-opacity: 1;
+  }
+
+  .md\:bg-\[url\(\'img\/ignite-symbol-audio\.png\'\)\] {
+    background-image: url('img/ignite-symbol-audio.png');
+  }
+
+  .md\:bg-\[url\(\'img\/ignite-symbol-ricochet\.png\'\)\] {
+    background-image: url('img/ignite-symbol-ricochet.png');
+  }
+
+  .md\:bg-\[url\(\'img\/ignite-symbol-video\.png\'\)\] {
+    background-image: url('img/ignite-symbol-video.png');
+  }
+
+  .md\:bg-\[url\(\'img\/ignite-symbol-advertising\.png\'\)\] {
+    background-image: url('img/ignite-symbol-advertising.png');
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
