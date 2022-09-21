@@ -538,9 +538,6 @@ video {
 .float-left {
   float: left;
 }
-.m-2 {
-  margin: 0.5rem;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -558,14 +555,14 @@ video {
 .mr-3 {
   margin-right: 0.75rem;
 }
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
 }
 .ml-2 {
   margin-left: 0.5rem;
-}
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 .block {
   display: block;
@@ -608,9 +605,6 @@ video {
 }
 .justify-start {
   justify-content: flex-start;
-}
-.justify-end {
-  justify-content: flex-end;
 }
 .justify-between {
   justify-content: space-between;
@@ -705,17 +699,13 @@ video {
 .font-extrabold {
   font-weight: 800;
 }
-.text-igniteGreen {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(0 200 100 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .text-slate-200 {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
-}
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -751,8 +741,8 @@ video {
     height: 12rem;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
+  .md\:w-\[635px\] {
+    width: 635px;
   }
 
   .md\:w-1\/4 {
@@ -763,20 +753,8 @@ video {
     width: 20%;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
-  .md\:w-\[635px\] {
-    width: 635px;
-  }
-
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:items-center {
-    align-items: center;
   }
 
   .md\:bg-\[url\(\'img\/ignite-symbol-audio\.png\'\)\] {
