@@ -561,6 +561,9 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mb-24 {
+  margin-bottom: 6rem;
+}
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -634,10 +637,6 @@ video {
 .bg-igniteDarkBlue\/\[0\.75\] {
   background-color: rgb(15 20 100 / 0.75);
 }
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -651,14 +650,17 @@ video {
 .bg-contain {
   background-size: contain;
 }
-.bg-left {
-  background-position: left;
+.bg-right {
+  background-position: right;
 }
 .bg-center {
   background-position: center;
 }
 .bg-top {
   background-position: top;
+}
+.bg-left {
+  background-position: left;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -678,6 +680,9 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.pt-24 {
+  padding-top: 6rem;
 }
 .text-center {
   text-align: center;
@@ -717,8 +722,8 @@ video {
     margin-bottom: 1.5rem;
   }
 
-  .md\:mb-48 {
-    margin-bottom: 12rem;
+  .md\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .md\:mb-0 {
@@ -735,6 +740,10 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-52 {
+    height: 13rem;
   }
 
   .md\:h-48 {
@@ -757,12 +766,16 @@ video {
     flex-direction: row;
   }
 
-  .md\:bg-\[url\(\'img\/ignite-symbol-audio\.png\'\)\] {
-    background-image: url('img/ignite-symbol-audio.png');
+  .md\:bg-\[url\(\'img\/ignite-symbol-audio-reverse\.png\'\)\] {
+    background-image: url('img/ignite-symbol-audio-reverse.png');
   }
 
   .md\:bg-\[url\(\'img\/ignite-symbol-advertiing\.png\'\)\] {
     background-image: url('img/ignite-symbol-advertiing.png');
+  }
+
+  .md\:bg-\[url\(\'img\/ignite-symbol-audio\.png\'\)\] {
+    background-image: url('img/ignite-symbol-audio.png');
   }
 
   .md\:p-6 {
@@ -772,6 +785,11 @@ video {
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:py-12 {
