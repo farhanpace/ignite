@@ -25,6 +25,13 @@ module.exports = {
         'xxs' : '238px',
       },
     },
+
+    backdropFilter: {
+      'none': 'none',
+      'blur': 'blur(20px)',
+    },
   },
-  plugins: [],
+  plugins: [
+
+  ],
 }
