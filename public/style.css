@@ -612,6 +612,12 @@ video {
 .mr-16 {
   margin-right: 4rem;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -659,6 +665,9 @@ video {
 .w-1\/2 {
   width: 50%;
 }
+.w-\[300px\] {
+  width: 300px;
+}
 .w-full {
   width: 100%;
 }
@@ -679,6 +688,27 @@ video {
 }
 .w-32 {
   width: 8rem;
+}
+.w-\[250px\] {
+  width: 250px;
+}
+.w-\[220px\] {
+  width: 220px;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[180px\] {
+  width: 180px;
+}
+.w-\[170px\] {
+  width: 170px;
+}
+.w-36 {
+  width: 9rem;
+}
+.w-1\/4 {
+  width: 25%;
 }
 .basis-1\/4 {
   flex-basis: 25%;
@@ -781,14 +811,14 @@ video {
 .bg-\[url\(\'img\/schedule-bg\.png\'\)\] {
   background-image: url('img/schedule-bg.png');
 }
-.bg-\[url\(\'img\/bg-darkblue-green\.png\'\)\] {
-  background-image: url('img/bg-darkblue-green.png');
+.bg-\[url\(\'img\/bg-darkblue-green-en\.png\'\)\] {
+  background-image: url('img/bg-darkblue-green-en.png');
 }
 .bg-\[url\(\'img\/bg-chairs\.png\'\)\] {
   background-image: url('img/bg-chairs.png');
 }
-.bg-\[url\(\'img\/bg-darkblue-green-en\.png\'\)\] {
-  background-image: url('img/bg-darkblue-green-en.png');
+.bg-\[url\(\'img\/bg-darkblue-green\.png\'\)\] {
+  background-image: url('img/bg-darkblue-green.png');
 }
 .bg-cover {
   background-size: cover;
@@ -994,6 +1024,20 @@ video {
     width: 20%;
   }
 
+  .md\:w-0 {
+    width: 0px;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1012,6 +1056,14 @@ video {
 
   .md\:bg-\[url\(\'img\/ignite-symbol-advertiing\.png\'\)\] {
     background-image: url('img/ignite-symbol-advertiing.png');
+  }
+
+  .md\:bg-\[url\(\'img\/bg-darkblue-green\.png\'\)\] {
+    background-image: url('img/bg-darkblue-green.png');
+  }
+
+  .md\:bg-\[url\(\'img\/bg-darkblue-green-en\.png\'\)\] {
+    background-image: url('img/bg-darkblue-green-en.png');
   }
 
   .md\:p-6 {
