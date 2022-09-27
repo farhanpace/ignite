@@ -584,6 +584,10 @@ video {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -617,11 +621,17 @@ video {
 .mb-\[-10px\] {
   margin-bottom: -10px;
 }
+.mb-\[-15px\] {
+  margin-bottom: -15px;
+}
 .ml-4 {
   margin-left: 1rem;
 }
 .mr-16 {
   margin-right: 4rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
 }
 .block {
   display: block;
@@ -706,9 +716,6 @@ video {
 .self-center {
   align-self: center;
 }
-.overflow-visible {
-  overflow: visible;
-}
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -717,9 +724,6 @@ video {
 }
 .border-8 {
   border-width: 8px;
-}
-.border-4 {
-  border-width: 4px;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -734,6 +738,18 @@ video {
 .border-igniteDarkBlue {
   --tw-border-opacity: 1;
   border-color: rgb(15 20 100 / var(--tw-border-opacity));
+}
+.border-igniteMagenta {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 50 100 / var(--tw-border-opacity));
+}
+.border-igniteBlue {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 90 250 / var(--tw-border-opacity));
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-igniteDarkBlue {
   --tw-bg-opacity: 1;
@@ -758,6 +774,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-igniteBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 90 250 / var(--tw-bg-opacity));
+}
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
@@ -767,11 +787,11 @@ video {
 .bg-\[url\(\'img\/events-bg-blue\.png\'\)\] {
   background-image: url('img/events-bg-blue.png');
 }
-.bg-\[url\(\'img\/speakers-bg-darkblue\.png\'\)\] {
-  background-image: url('img/speakers-bg-darkblue.png');
-}
 .bg-\[url\(\'img\/speakers-bg-pink\.png\'\)\] {
   background-image: url('img/speakers-bg-pink.png');
+}
+.bg-\[url\(\'img\/speakers-bg-darkblue\.png\'\)\] {
+  background-image: url('img/speakers-bg-darkblue.png');
 }
 .bg-\[url\(\'img\/schedule-bg\.png\'\)\] {
   background-image: url('img/schedule-bg.png');
@@ -898,11 +918,19 @@ video {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
 }
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
 .hover\:rotate-0:hover {
   --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 @media (min-width: 768px) {
+
+  .md\:left-10 {
+    left: 2.5rem;
+  }
 
   .md\:mt-0 {
     margin-top: 0px;
@@ -926,6 +954,14 @@ video {
 
   .md\:ml-2 {
     margin-left: 0.5rem;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:mr-16 {
+    margin-right: 4rem;
   }
 
   .md\:flex {
@@ -988,6 +1024,10 @@ video {
     border-left-width: 2px;
   }
 
+  .md\:border-r-2 {
+    border-right-width: 2px;
+  }
+
   .md\:bg-\[url\(\'img\/ignite-symbol-audio-reverse\.png\'\)\] {
     background-image: url('img/ignite-symbol-audio-reverse.png');
   }
@@ -1032,6 +1072,19 @@ video {
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .md\:pr-8 {
+    padding-right: 2rem;
   }
 
   .md\:text-5xl {

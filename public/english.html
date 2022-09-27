@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
@@ -19,655 +20,549 @@
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./custom.css">
     <title>Ignite</title>
 </head>
 
 <body class="font-changa">
-    <section id="intro" class="bg-igniteDarkBlue">
-        <div class="flex container mx-auto border-b border-igniteGreen mb-6 justify-between items-center">
-            <img src="img/ignite-logo-green.png" class="w-48" alt="">
-            <div class="hidden md:flex flex-col md:flex-row items-center justify-start float-left text-white">
-                <div class="flex items-center">
-                    <i class="fa-solid fa-calendar mr-3 items-center"></i>
-                    <p>Wednesday, 19 October - Saturday, 22 October</p>
+    <section id="intro" class="bg-[url('img/bg-mic.png')] bg-cover bg-center bg-no-repeat py-6 px-6 md:h-screen">
+        <div class="container mx-auto flex items-center p-6 justify-between">
+            <img src="img/ignitethesound.png" alt="" class="w-2/3 md:w-96">
+            <a href="index.html" class="text-white text-xl font-extrabold  w-fit">
+                AR
+            </a>
+        </div>
+        <div class="container mx-auto p-6 mt-24">
+            <img src="img/ignitethesound.png" alt="" class="w-1/2 mx-auto">
+            <p class="text-xl text-center font-extrabold my-12 text-white"> يُثري شغفك؛ ويتّسع لاهتماماتك.</p>
+        </div>
+
+        <div
+            class="container mx-auto px-6 py-6 mt-12 bg-opacity-40 bg-clip-padding md:w-3/4 bg-white rounded-[24px] text-white">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="flex items-center md:px-12 mx-6 md:border-r-2 justify-between mb-6 md:mb-0">
+                    <i class="fa-regular fa-calendar mr-2 h-10 "></i>
+                    <p class="">الأربعاء 19 أكتوبر <br> السبت 22 أكتوبر</p>
                 </div>
-                <div class="flex ml-3 items-center">
-                    <i class="fa-solid fa-location-dot mr-3 items-center"></i>
-                    <p>King Abdullah Financial Center</p>
+
+                <div class="flex items-center md:px-12 mx-6 md:border-r-2 justify-between mb-6 md:mb-0">
+                    <i class="fa-solid fa-location-dot mr-2 h-10"></i>
+                    <p class="">الأربعاء 19 أكتوبر <br> السبت 22 أكتوبر</p>
                 </div>
-                <div class="flex ml-3 items-center">
-                    <i class="fa-solid fa-clock mr-3 items-center"></i>
-                    <p>4pm to 11pm</p>
+
+                <div class="flex items-center md:px-12 mx-6 md:border-r-2 justify-between mb-6 md:mb-0">
+                    <i class="fa-regular fa-clock mr-2 h-10"></i>
+                    <p class="">الأربعاء 19 أكتوبر <br> السبت 22 أكتوبر</p>
                 </div>
-                <div class="flex ml-3 items-center">
-                    <a href="index.html" class="bg-igniteGreen text-xl font-extrabold  w-fit p-2 px-3">
-                        عربي
+
+                <div class="flex items-center w-full md:w-36">
+                    <a href="https://ignite.hadir.co/form?lang=ar" class="bg-igniteGreen w-full text-center p-2 px-6 py-3">
+                        سجل الان
                     </a>
                 </div>
+
             </div>
-            <div class="flex md:hidden ml-3 items-center mr-3">
-                <a href="index.html" class="bg-igniteGreen text-white text-xl font-extrabold  w-fit p-2 px-3">
-                    عربي
+
+        </div>
+    </section>
+
+    <section id="info" class="py-12 px-12">
+        <div class="flex flex-col md:flex-row justify-between">
+            <div class="block md:w-1/2">
+                <img src="img/info-icon.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+                <p class="md:w-3/4 ">Ignite the sound هو أول تجمع لصناع المحتوى الصوتي في المملكة العربية السعودية، يربط
+                    المبدعين
+                    والمهتمين مع خُبراء محليين وعالميين في مجال الصوت لزيادة الُفرص وتعزيز الإمكانَات الإبداعيّة ضمن
+                    فعالية عُنوانها المعرفة ومِلؤها الإلهَام.</p>
+            </div>
+            <div class="block md:w-1/2 mb-12 md:mb-0">
+                <img src="img/silver-mic.png" alt="" class="w-48 md:w-64 mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="bg-[url('img/events-bg-blue.png')] bg-cover bg-center bg-no-repeat py-12 px-12">
+        <div class="container mx-auto mb-12">
+            <img src="img/info-icon-green.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+        </div>
+        <div class="flex flex-col md:flex-row justify-between">
+            <div class="block md:w-1/4 md:ml-2 mb-12">
+                <h1 class="bg-igniteGreen text-white text-center w-3/4 p-2 mb-[-10px] mx-auto -rotate-3">
+                    مساحة الإلهام
+                </h1>
+                <div class="bg-white p-6 h-64">
+                    <p class="text-center mt-6">تعرّف على أبرز الأسماء العالمية والمحلية المتخصصة في المحتوى الصوتي!
+                        ستثري تجربتك من خلال الجلسات الحوارية وحلقات النقاش والأحاديث الملهمة والتجارب التي سيسردها
+                        أصحابها على مسرح الفعالي</p>
+                </div>
+            </div>
+            <div class="block md:w-1/4 md:ml-2 mb-12">
+                <h1 class="bg-igniteMagenta text-white text-center w-3/4 p-2 mb-[-10px] mx-auto -rotate-3">
+                    مساحة الإثراء
+                </h1>
+                <div class="bg-white p-6 h-64">
+                    <p class="text-center mt-6">تعرّف على أبرز الأسماء العالمية والمحلية المتخصصة في المحتوى الصوتي!
+                        ستثري تجربتك من خلال الجلسات الحوارية وحلقات النقاش والأحاديث الملهمة والتجارب التي سيسردها
+                        أصحابها على مسرح الفعالي</p>
+                </div>
+            </div>
+            <div class="block md:w-1/4 md:ml-2 mb-12">
+                <h1 class="bg-igniteDarkBlue text-white text-center w-3/4 p-2 mb-[-10px] mx-auto -rotate-3">
+                    مساحة الخدمات
+                </h1>
+                <div class="bg-white p-6 h-64">
+                    <p class="text-center mt-6">تعرّف على أبرز الأسماء العالمية والمحلية المتخصصة في المحتوى الصوتي!
+                        ستثري تجربتك من خلال الجلسات الحوارية وحلقات النقاش والأحاديث الملهمة والتجارب التي سيسردها
+                        أصحابها على مسرح الفعالي</p>
+                </div>
+            </div>
+            <div class="block md:w-1/4 mb-12">
+                <h1 class="bg-igniteMagenta text-white text-center w-3/4 p-2 mb-[-10px] mx-auto -rotate-3">
+                    مساحة التواصل
+                </h1>
+                <div class="bg-white p-6 h-64">
+                    <p class="text-center mt-6">تعرّف على أبرز الأسماء العالمية والمحلية المتخصصة في المحتوى الصوتي!
+                        ستثري تجربتك من خلال الجلسات الحوارية وحلقات النقاش والأحاديث الملهمة والتجارب التي سيسردها
+                        أصحابها على مسرح الفعالي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers-1"
+        class="bg-[url('img/speakers-bg-pink.png')] bg-cover bg-center bg-no-repeat py-12 px-12 overflow-x-hidden">
+        <div class="container px-6 mx-auto items-center">
+            <div class="container mx-auto mb-12">
+                <img src="img/speakers-group-icon.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+            </div>
+            <div class="block">
+                <div class="carousel-1">
+                    <div class="speaker-g-1">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteDarkBlue">
+                            <img src="img/speaker-group-1/speaker-1.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteDarkBlue border-8 border-igniteMagenta text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-white">
+                                سهى نويلاتي
+                            </h4>
+                            <p class="text-white text-sm">
+                                صحفية ومذيعة ومقدمة
+                                MBC برامج إخبارية في
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker-g-1">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteBlue">
+                            <img src="img/speaker-group-1/speaker-2.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteBlue border-8 border-igniteMagenta text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-white">
+                                عبدالله السبع
+                            </h4>
+                            <p class="text-white text-sm">
+                                مؤثر وتقني مهتم بكتابة وصناعة
+                                المحتوى
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker-g-1">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-white">
+                            <img src="img/speaker-group-1/speaker-3.png" alt="">
+                        </div>
+                        <div
+                            class="bg-white border-8 border-igniteMagenta text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-slate-600">
+                                محمد الموسى
+                            </h4>
+                            <p class="text-slate-600 text-sm">
+                                مؤثر وتقني مهتم بكتابة وصناعة
+                                المحتوى
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker-g-1">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteDarkBlue">
+                            <img src="img/speaker-group-1/speaker-4.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteDarkBlue border-8 border-igniteMagenta text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-white">
+                                وئام الدخيل
+                            </h4>
+                            <p class="text-white text-sm">
+                                صحفية ومذيعة ومقدمة برامج
+                                إخبارية في التلفزيون السعودي
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers-2"
+        class="bg-[url('img/speakers-bg-darkblue.png')] bg-cover bg-center bg-no-repeat py-12 px-12 overflow-x-hidden">
+        <div class="container px-6 mx-auto items-center">
+            <div class="container mx-auto mb-12">
+                <img src="img/speakers1-icon.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+            </div>
+            <div class="block">
+                <div class="carousel-2">
+                    <div class="speaker-g-2">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteGreen">
+                            <img src="img/speaker-group-2/speaker-5.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteGreen border-8 border-igniteDarkBlue text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-white">
+                                معالي المهندس هيثم العوهلي
+                            </h4>
+                            <p class="text-white text-sm">
+                                نائب وزير الاتصالات وتقنية
+                                المعلومات
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker-g-2">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteBlue">
+                            <img src="img/speaker-group-2/speaker-6.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteBlue border-8 border-igniteDarkBlue text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-white">
+                                معالي الأستاذ حامد فايز
+                            </h4>
+                            <p class="text-white text-sm">
+                                نائب وزير الثقافة
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker-g-2">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteMagenta">
+                            <img src="img/speaker-group-2/speaker-7.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteMagenta border-8 border-igniteDarkBlue text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l">
+                                الأستاذة إسراء عسيري
+                            </h4>
+                            <p class="text-sm">
+                                الرئيس التنفيذي للهيئة العامة للإعلام
+                                المرئي والمسموع
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker-g-2">
+                        <div class="min-w-32 min-h-32 mx-4 mb-[-15px] border-8 border-igniteGreen">
+                            <img src="img/speaker-group-2/speaker-8.png" alt="">
+                        </div>
+                        <div
+                            class="bg-igniteGreen border-8 border-igniteDarkBlue text-white text-center p-2 mb-[-10px] mx-auto -rotate-3 hover:rotate-0">
+                            <h4 class="text-l text-white">
+                                الأستاذ عبدالله المغلوث
+                            </h4>
+                            <p class="text-white text-sm">
+                                مدير مركز التواصل الحكومي
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sponsors"
+        class="bg-[url('img/speakers-bg-pink.png')] bg-cover bg-left bg-no-repeat py-12 px-12 overflow-x-hidden">
+        <div class="container py-6 mx-auto items-center">
+            <div class="container mx-auto mb-12">
+                <img src="img/sponsors-icon.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+            </div>
+            <div class="block">
+                <div class="carousel-3">
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture2.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture3.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture4.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture5.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture6.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture7.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture8.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture9.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture10.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture12.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture13.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture14.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture15.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture16.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture17.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture18.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture19.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture20.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture21.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture22.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture23.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture24.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture25.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture26.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture27.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture28.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture29.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture30.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture31.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture32.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture33.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture34.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture35.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture36.png" alt=""></div>
+                    <div class="bg-white min-w-64 min-h-64 mx-4 -rotate-3 hover:rotate-0"><img
+                            src="img/sponsors/Picture37.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dontknow" class="py-12 px-12">
+        <div class="flex flex-col md:flex-row justify-center">
+            <img src="img/infos-blue.png" alt="" class="md:w-1/4">
+            <img src="img/infos-green.png" alt="" class="md:w-1/4">
+            <img src="img/infos-darkblue.png" alt="" class="md:w-1/4">
+        </div>
+        <div class="flex flex-col md:flex-row justify-center">
+            <img src="img/infos-pink.png" alt="" class="md:w-1/4">
+            <img src="img/infos-blue2.png" alt="" class="md:w-1/4">
+
+        </div>
+    </section>
+
+
+
+
+    <section id="schedule" class="bg-[url('img/schedule-bg.png')] bg-cover bg-left bg-no-repeat py-12  px-12">
+
+        <div class="container mx-auto">
+            <img src="img/info-icon-darkblue2.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+            <div class="flex flex-col md:flex-row justify-center items-center">
+                <div class="w-full flex justify-center self-center relative h-[27rem]">
+                    <h1
+                        class="bg-igniteDarkBlue text-white text-center w-fit px-12 py-4 mx-auto absolute top-0 left-0 z-10">
+                        المسرح الرئيسي
+                    </h1>
+                    <div class="w-full md:w-1/2 border-8 border-igniteDarkBlue bg-white absolute top-10 md:left-10 z-0  h-96">
+                        <div class="bg-igniteDarkBlue px-8 py-16 md:ml-4 mr-16 "
+                            style="clip-path: polygon(0 44%, 100% 30%, 100% 77%, 0 60%);">
+                            <div class="flex items-center justify-between md:pl-8">
+                                <p class="text-white text-sm">
+                                    دقيقة 30-20
+                                    <br>
+                                    1-2 متحدث
+                                </p>
+                                <p class="text-white text-sm">
+                                    حديث
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-igniteGreen px-8 py-16 md:ml-4 mr-16"
+                            style="clip-path: polygon(0 30%, 100% 46%, 100% 64%, 0 77%);">
+                            <div class="flex items-center justify-between md:pr-8">
+                                <p class="text-white text-sm">
+                                    حديث
+                                </p>
+                                <p class="text-white text-sm">
+                                    دقيقة 30-20
+                                    <br>
+                                    1-2 متحدث
+                                </p>
+                            </div>
+                        </div>
+                        <img src="img/dark-mic.png" alt="" class="h-96 absolute bottom-[-10px] right-[-60px]">
+                    </div>
+
+                </div>
+                <div class="w-full flex self-center justify-start relative h-[27rem]">
+                    <h1
+                        class="bg-igniteBlue text-white text-center w-fit px-12 py-4 mx-auto absolute top-0 left-0 z-10">
+                        المسرح الرئيسي
+                    </h1>
+                    <div class="w-full md:w-1/2 border-8 border-igniteBlue bg-white absolute top-10 md:left-10 z-0  h-96">
+                        <div class="bg-igniteMagenta px-8 py-16 md:ml-4 mr-16"
+                            style="clip-path: polygon(0 44%, 100% 30%, 100% 77%, 0 60%);">
+                            <div class="flex items-center justify-between md:pl-8">
+                                <p class="text-white text-sm">
+                                    دقيقة 30-20
+                                    <br>
+                                    1-2 متحدث
+                                </p>
+                                <p class="text-white text-sm">
+                                    حديث
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-igniteDarkBlue px-8 py-16 md:ml-4 md:mr-16 w-3/4 float-left"
+                            style="clip-path: polygon(0 30%, 100% 46%, 100% 64%, 0 77%);">
+                            <div class="flex items-center justify-between pr-8">
+                                <p class="text-white text-sm">
+                                    حديث
+                                </p>
+                                <p class="text-white text-sm">
+                                    دقيقة 30-20
+                                    <br>
+                                    1-2 متحدث
+                                </p>
+                            </div>
+                        </div>
+                        <img src="img/dark-mic.png" alt="" class="h-96 absolute bottom-[-10px] right-[-60px]">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="consultation"
+        class="bg-[url('img/bg-darkblue-green.png')] bg-cover bg-left bg-no-repeat py-12 md:py-36 px-12">
+        <div class="container flex flex-col md:flex-row justify-between">
+            <div class="block md:w-1/2">
+                <img src="img/info-icon-green2.png" alt="" class="w-48 md:w-64 mb-12 md:mb-0">
+                <p class="md:w-3/4 text-white">منطقة استشارات فردية تكشف عن جميع التساؤلات التي تخص المحتوى
+                    الصوتي ، حيث يلتقي أصحاب الخبرة من العلامات الرائدة معًا ، وهي
+                    منطقة للمحادثات الهادفة ومناقشة فرص وفوائد المحتوى المرتبط
+                    بعلامة تجارية في البث الصوتي ، إلى جانب ذلك ، ستكون هناك دراسات
+                    حالة ملهمة وبيانات مدعومة حول النمو المحتمل لبرنامجك الصوتي.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="register" class="bg-[url('img/bg-chairs.png')] bg-cover bg-left bg-no-repeat py-12 md:py-36 px-12">
+        <div class="container mx-auto">
+            <h3 class="text-2xl text-white text-center">سجل الأن واحجز مقعدك لتفتح آفاقا جديدة تتعرف بها على مجال <br>
+                الصوت
+            </h3>
+            <div class="text-center mt-12">
+                <a href="https://ignite.hadir.co/form?lang=ar" class="bg-igniteGreen w-full text-center text-white px-6 py-3 mx-auto">
+                    سجل الان
                 </a>
             </div>
         </div>
-        <div
-            class="container md:h-screen mx-auto md:py-6 flex items-center md:bg-[url('img/ignite-symbol-audio-reverse.png')] bg-right bg-no-repeat bg-[length:744px_484px]">
-            <div class="flex">
-                <div class="block w-auto md:w-[635px] p-6 text-slate-200">
-                    <h1 class="bg-igniteGreen text-xl font-extrabold  w-fit p-2 mb-6 -rotate-3">
-                        About the event
-                    </h1>
-                    <img src="img/ignitethesound.png" alt="" class="w-1/2 mb-6">
-                    <p class="text-xl font-extrabold mb-6">Enrich your passion. Match your interests.</p>
-                    <p class="text-l mb-6 text-justify">
-
-                        Ignite the Sound is the first gathering of audio content creators in Saudi Arabia, connecting
-                        creators and interested parties with local and
-                        international experts in the field of sound. This inaugural event aims to promote opportunities,
-                        enrich the local market and enhance the creative
-                        potential of sound creators .
-
-                    </p>
-                    <p class=" text-l mb-6 text-justify">
-                        Ignite the Sound will pave the way for new opportunities in the field of sound and podcasting,
-                        in an unparalleled gathering that will provide a
-                        platform for hobbyist, professionals and brands to share knowledge and exchange interest. The
-                        program will empower talent from around the
-                        Kingdom of Saudi Arabia to reach their full potential and share their work around the world in a
-                        professional, meaningful and successful way.
-
-                        The in-person event will offer unique experiences for visitors with stories to be told and
-                        voices to be shared.
-                    </p>
-
-
-                    <div class=" text-white md:hidden mb-6">
-                        <div class="flex mb-3 items-center">
-                            <i class="fa-solid fa-calendar mr-3"></i>
-                            <p class="font-extrabold text-l">Wednesday, 19 October - Saturday, 22 October </p>
-                        </div>
-                        <div class="flex mb-3 items-center">
-                            <i class="fa-solid fa-location-dot mr-3"></i>
-                            <p class="font-extrabold text-l">King Abdullah Financial Center</p>
-                        </div>
-                        <div class="flex">
-                            <i class="fa-solid fa-clock mr-3 items-center"></i>
-                            <p class="font-extrabold text-l">4pm to 11pm</p>
-                        </div>
-                    </div>
-
-                    <a href="#hadir"
-                        class="bg-igniteGreen text-2xl font-extrabold  w-fit p-4 mb-6 flex items-center drop-shadow-[35px_35px_35px_rgb(0, 200, 100)]">
-                        <h1 class="">
-                            Register
-                            <i class="fa-solid fa-arrow-pointer ml-3"></i>
-                        </h1>
-                    </a>
-                </div>
-            </div>
-        </div>
     </section>
 
-
-    <section id="events" class="bg-igniteMagenta py-6 md:py-0">
-        <div class="container md:h-screen mx-auto hidden md:flex items-center md:py-12">
-            <div class="flex flex-col md:flex-row">
-                <div class="block w-1/1 md:w-1/4 p-3 md:p-6 mt-6 md:mt-0">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Explore zone
-
-                    </h1>
-                    <p class="text-l md:h-52 p-6 text-white bg-igniteDarkBlue">
-                        Learn about the most prominent
-                        international and local names
-                        specialized in audio content!
-
-                        Your experience will be enriched
-                        through dialogue sessions, panel
-                        discussions, inspiring talks and
-                        exchanges that will be narrated on the
-                        main stage.
-
-                    </p>
-                </div>
-                <div class="block w-1/1 md:w-1/4 p-3 md:p-6 mt-6 md:mt-0">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Rise Up Zone
-                    </h1>
-                    <p class="text-l md:h-52 p-6 text-white bg-igniteDarkBlue">
-                        Sharpen your skills with industry
-                        professionals to learn how to build
-                        premium content!
-
-                        Visitors to this zone will receive
-                        one-on-one consultation and small
-                        group learning through workshops
-                        hosted by experts from around the
-                        globe.
-
-                    </p>
-                </div>
-                <div class="block w-1/1 md:w-1/4 p-3 md:p-6 mt-6 md:mt-0">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Act zone
-
-                    </h1>
-                    <p class="text-l md:h-52 p-6 text-white bg-igniteDarkBlue">
-                        Meet the major companies and
-                        platforms that specialize in the
-                        audio industry. Their unique
-                        vision and diverse services will
-                        help visitors from all expert
-                        levels take their business to the
-                        next level.
-                    </p>
-                </div>
-                <div class="block w-1/1 md:w-1/4 p-3 md:p-6 mt-6 md:mt-0">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Extend zone
-                    </h1>
-                    <p class="text-l md:h-52 p-6 text-white bg-igniteDarkBlue">
-                        Enhance your presence by
-                        using your networking skills to
-                        connect with elite minds in an
-                        area designed for human
-                        connection and meaningful
-                        exchanges.
-                    </p>
-                </div>
+    <section id="footer" class="bg-igniteDarkBlue py-12 md:py-24 px-12">
+        <div class="container mx-auto">
+            <img src="img/ignitethesound.png" alt="" class="mx-auto w-96">
+            <div class="flex items-center justify-center mt-6">
+                <a href="/">
+                    <img src="img/twitter.png" alt="" class="w-12 ml-2">
+                </a>
+                <a href="/">
+                    <img src="img/instagram.png" alt="" class="w-12 ml-2">
+                </a>
+                <a href="/">
+                    <img src="img/youtube.png" alt="" class="w-12 ml-2">
+                </a>
+                <a href="/">
+                    <img src="img/linkedin.png" alt="" class="w-12">
+                </a>
             </div>
-        </div>
-        <div class="container md:h-screen mx-auto md:hidden flex items-center md:py-12">
-            <div class="flex flex-col md:flex-row p-3">
-                <div class="block w-1/1 md:w-1/4 p-2 md:p-6 mt-6 md:mt-0 bg-igniteDarkBlue">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Explore zone
-
-                    </h1>
-                    <p class="text-l md:h-48 p-2 text-white bg-igniteDarkBlue">
-                        Learn about the most prominent
-                        international and local names
-                        specialized in audio content!
-
-                        Your experience will be enriched
-                        through dialogue sessions, panel
-                        discussions, inspiring talks and
-                        exchanges that will be narrated on the
-                        main stage.
-
-                    </p>
-                </div>
-                <div class="block w-1/1 md:w-1/4 p-2 md:p-6 mt-6 md:mt-0 bg-igniteDarkBlue">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Rise Up Zone
-
-                    </h1>
-                    <p class="text-l md:h-48 p-2 text-white bg-igniteDarkBlue">
-                        Sharpen your skills with industry
-                        professionals to learn how to build
-                        premium content!
-
-                        Visitors to this zone will receive
-                        one-on-one consultation and small
-                        group learning through workshops
-                        hosted by experts from around the
-                        globe.
-
-                    </p>
-                </div>
-                <div class="block w-1/1 md:w-1/4 p-2 md:p-6 mt-6 md:mt-0 bg-igniteDarkBlue">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Act zone
-
-                    </h1>
-                    <p class="text-l md:h-48 p-2 text-white bg-igniteDarkBlue">
-                        Meet the major companies and
-                        platforms that specialize in the
-                        audio industry. Their unique
-                        vision and diverse services will
-                        help visitors from all expert
-                        levels take their business to the
-                        next level.
-                    </p>
-                </div>
-                <div class="block w-1/1 md:w-1/4 p-2 md:p-6 mt-6 md:mt-0 bg-igniteDarkBlue">
-                    <h1 class="bg-igniteDarkBlue text-xl font-extrabold text-white w-fit p-2 md:mb-6">
-                        Extend zone
-                    </h1>
-                    <p class="text-l md:h-48 p-2 text-white bg-igniteDarkBlue">
-                        Enhance your presence by
-                        using your networking skills to
-                        connect with elite minds in an
-                        area designed for human
-                        connection and meaningful
-                        exchanges.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="speakers" class="bg-igniteDarkBlue/[0.75]">
-        <div
-            class="container md:h-screen py-6 mx-auto flex items-center md:bg-[url('img/ignite-symbol-advertiing.png')] bg-center bg-no-repeat bg-cover">
-            <div class="flex">
-                <div class="block w-full p-6">
-                    <h1
-                        class="text-2xl md:text-5xl font-extrabold text-white w-fit p-2 mb-24 md:mb-32 text-center mx-auto">
-                        Main Speakers
-                    </h1>
-                    <div class="flex flex-col md:flex-row">
-                        <div class="block md:w-1/5 ml-2 mb-6 md:mb-0  bg-top bg-no-repeat bg-contain py-6">
-                            <img src="img/speaker1-removebg.png" alt="" class="w-3/4 mx-auto">
-                            <p class="text-white text-center mt-6  font-extrabold text-xl">H.E.
-                                Eng.Abdullah Alswaha</p>
-                        </div>
-                        <div class="block md:w-1/5 ml-2 mb-6 md:mb-0   bg-top bg-no-repeat bg-contain py-6">
-                            <img src="img/speaker2-removebg.png" alt="" class="w-3/4 mx-auto">
-                            <p class="text-white text-center mt-6  font-extrabold text-xl">H.E.
-                                Eng.Khalid Al Falih</p>
-                        </div>
-                        <div class="block md:w-1/5 ml-2 mb-6 md:mb-0   bg-top bg-no-repeat bg-contain py-6">
-                            <img src="img/speaker3-removebg.png" alt="" class="w-3/4 mx-auto">
-                            <p class="text-white text-center mt-6  font-extrabold text-xl">H.E. Dr.
-                                Majid Alkasabi</p>
-                        </div>
-                        <div class="block md:w-1/5 ml-2 mb-6 md:mb-0   bg-top bg-no-repeat bg-contain py-6">
-                            <img src="img/speaker4-removebg.png" alt="" class="w-3/4 mx-auto">
-                            <p class="text-white text-center mt-6  font-extrabold text-xl">H.E.
-                                Mr.Hamed Fayez</p>
-                        </div>
-                        <div class="block md:w-1/5 ml-2 mb-6 md:mb-0   bg-top bg-no-repeat bg-contain py-6">
-                            <img src="img/speaker5-removebg.png" alt="" class="w-3/4 mx-auto">
-                            <p class="text-white text-center mt-6  font-extrabold text-xl">H.E.
-                                Dr.Abdullah AlMaghlouth</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="speakers2" class="bg-igniteDarkBlue/[0.75]">
-        <div class="container py-6 mx-auto flex flex-col md:flex-row items-center pt-24">
-            <div class="mx-auto text-center md:mr-3 mb-3 flex flex-col md:flex-row w-full space-x-2">
-                <div class="block bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Afnan Alghamdi​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">طبيبة نفسية/كاتبة محتوى/مقدمة
-                        بودكاست #كنبة_السبت​</p>
-                </div>
-                <div class="block bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Jomana Alrashid​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3"> الرئيس التنفيذي للمجموعة
-                        السعودية للأبحاث والإعلام​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Riyadh Al Zamil​
-                    </p>
-                    <p class= text-center mt-6  text-sm mb-3">رئيس اللجنة الوطنية لريادة
-                        الأعمال في اتحاد الغرف السعودية​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Chirag Desai​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Founder, Amaeya Media / Board
-                        Member at The Podcast Academy ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">ana Gujral​</p>
-                    <p class="text-center mt-6  text-sm mb-3"> Entrepreneur, speaker, and CEO
-                        at Behavioral Signals​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Gabriel Soto</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Director of Research​ at Edison
-                        Research​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Larry Rosen</p>
-                    <p class=" text-center mt-6  text-sm mb-3">President at Edison Research​
-
-                        at Edison Research​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Malik najer​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">مبتكر ومخرج مسامير​</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container py-6 mx-auto flex flex-col md:flex-row items-center pt-24">
-            <div class="mx-auto text-center md:mr-3 mb-3 flex flex-col md:flex-row w-full space-x-2">
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Khalid Alkenaa​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">Founder of Mohtwizw​ ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Sara
-                        Alabdulkarim​</p>
-                    <p class=" text-center mt-6  text-sm mb-3"> عضو هيئة حقوق الإنسان وأستاذ
-                        مساعد في جامعة الملك سعود​​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Mashhoor
-                        aldubayan​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">صانع محتوى صوتي،ثمانية​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Martha Little</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Senior Director, Creative
-                        Development, Audible​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Mohammed zaatara​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">Founder of Wajeez​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Rohan Tambyrajah</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Chief Strategy Officer at PHD ​​
-                        ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Abdulaziz
-                        Alhudayan​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Founder of MICS​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class="text-white text-center mt-6  text-md mb-3">Megan Davies</p>
-                    <p class="text-white text-center mt-6  text-sm mb-3">Managing Director, International
-                        at Acast​</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container py-6 mx-auto flex flex-col md:flex-row items-center pt-24">
-            <div class="mx-auto text-center md:mr-3 mb-3 flex flex-col md:flex-row w-full space-x-2">
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Ahmad alghandur​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">صانع محتوى​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class="text-center mt-6  text-md mb-3">Adam Uytman</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Creator Network Development
-                        Director, Acast​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class="  mt-6  text-md mb-3">Muhammed albaiz​</p>
-                    <p class="  mt-6  text-sm mb-3">Lawyer Legal Counsel at Al-Biz
-                        Law Firm​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">عمار الصبان​
-
-                        | Ammar alsabban​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Voice actor/screenwriter at
-                        Thirtiwan Creations​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">James Cridland​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Podnews, Editor​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Mitch Lowe ​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Co-Creator, Netflix​ Head of
-                        Strategy at Katch, Advisor at Skillset, Usecrypt, Cofounder of Meta Entertainment World and
-                        PepperAI ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Ron Baetiong</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Founder and CEO at Podcast
-                        Network Asia & Podmachine | Host of the Hustleshare Podcast​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Muhammed Hunaidi​</p>
-                    <p class="text-center mt-6  text-sm mb-3">Voice actor in Disney movies​
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container py-6 mx-auto flex flex-col md:flex-row items-center pt-24">
-            <div class="mx-auto text-center md:mr-3 mb-3 flex flex-col md:flex-row w-full space-x-2">
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Samar Sulaiman​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">مدققة وصانعة محتوى في ثمانية​
-                    </p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Abdulrahman
-                        Abu
-                        malih​</p>
-                    <p class="text-center mt-6  text-sm mb-3">المؤسس والرئيس التنفيذي لثمانية​
-                    </p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Abdulrahman Tarabzouni</p>
-                    <p class=" text-center mt-6  text-sm mb-3">CEO of Saudi Technology
-                        Ventures​
-                    </p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Nabeel Koshak​</p>
-                    <p class="text-center mt-6  text-sm mb-3">CEO of Saudi Venture Capital
-                        Company ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Waleed Alballa​</p>
-                    <p class="text-center mt-6  text-sm mb-3">General Partner, Sukna Ventures
-                        ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Rakan Alfaizy​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">Chairman of the Digital Media
-                        Committee in the Riyadh Chamber​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class="text-white text-center mt-6  text-md mb-3">Abdulaziz
-                        Aladwani​</p>
-                    <p class="text-white text-center mt-6  text-sm mb-3">CEO, Manafa​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Abdulla
-                        Alkassabi​</p>
-                    <p class="text-center mt-6  text-sm mb-3">Deputy Chairman of the Board at
-                        Manafa​</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container py-6 mx-auto flex flex-col md:flex-row items-center pt-24">
-            <div class="mx-auto text-center md:mr-3 mb-3 flex flex-col md:flex-row w-full space-x-2">
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Abdulla Alessa​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">Podcaster​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Mansour al assaf
-                        l ​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">باحث وصانع محتوى​​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Naser Alnnaser​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">Voice Actor​​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3"Abdulaziz
-                        Alshehri​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Voice Actor​​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3"> Nasser Alakeel ​
-                    </p>
-                    <p class=" text-center mt-6  text-sm mb-3">Storyteller​​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Todd Cochrane</p>
-                    <p class=" text-center mt-6  text-sm mb-3">CEO, Blubrry Podcasting ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Abdulaziz Sulaim
-                        ​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">CEO of Audiom ​ ​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Ammar Kamal​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Podcaster​</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container py-6 mx-auto flex flex-col md:flex-row items-center pt-24">
-            <div class="mx-auto text-center md:mr-3 mb-3 flex flex-col md:flex-row justify-start">
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Ramsey George Tesdell
-                        ​</p>
-                    <p class=" text-center mt-6  text-sm mb-3">Chief Executive Officer, Sowt |
-                        صوت​​</p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class="text-center mt-6  text-md mb-3">Mohammed Islam​</p>
-                    <p class="text-center mt-6  text-sm mb-3">Host and founder of The Mo Show​
-                    </p>
-                </div>
-                <div class="block basis-1/4 bg-slate-100 p-3">
-                    <img src="img/no-available.jpg" alt="" class="w-32 mx-auto">
-                    <p class=" text-center mt-6  text-md mb-3">Mofeed Alnowaisir</p>
-                    <p class=" text-center mt-6  text-sm mb-3">صانع محتوى والمدير الرقمي في
-                        مجموعة MBC ​</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sponsors" class="bg-igniteMagenta">
-        <div class="container py-6 mx-auto items-center">
-            <h1 class="text-white text-2xl md:text-4xl text-center mx-auto w-fit p-6 font-extrabold mb-6">
-                Partners</h1>
-            <div class="block">
-                <div class="carousel-1">
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture2.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture3.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture4.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture5.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture6.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture7.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture8.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture9.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture10.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture12.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture13.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture14.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture15.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture16.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture17.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture18.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture19.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture20.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture21.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture22.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture23.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture24.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture25.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture26.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture27.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture28.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture29.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture30.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture31.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture32.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture33.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture34.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture35.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture36.png" alt=""></div>
-                    <div class="bg-white min-w-64 min-h-64 mx-2"><img src="img/sponsors/Picture37.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="hadir" class="mx-auto bg-igniteDarkBlue pt-24">
-        <iframe src="https://ignite.hadir.co/form?lang=en" width="100%" height="800" style="border:none;">
-        </iframe>
-    </section>
-
-
-    <section id="footer" class="bg-igniteDarkBlue">
-        <div class=" container mx-auto border-t border-igniteGreen">
-            <img src="img/ignite-logo-green.png" class="w-48 block mx-auto" alt="">
+            <p class="text-center text-white mt-6">
+                جميع الحقوق محفوظة لوزارة الاتصالات وتقنية المعلومات
+            </p>
         </div>
     </section>
 
     <script type="text/javascript">
-
         $(document).ready(function () {
 
             $('.carousel-1').slick({
-                slidesToShow: 5,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 rtl: false,
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 1000
+                autoplaySpeed: 1000,
+                mobileFirst: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
 
             $('.carousel-2').slick({
-                slidesToShow: 4,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 rtl: false,
-                arrows: true,
-                autoplay: false,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                mobileFirst: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.carousel-3').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                rtl: false,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                mobileFirst: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
         });
     </script>
