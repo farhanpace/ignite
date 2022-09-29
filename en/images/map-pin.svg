@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.913" height="35.894" viewBox="0 0 29.913 35.894">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="29.913" height="35.894" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="map-pin_1_" data-name="map-pin (1)" clip-path="url(#clip-path)">
+    <g id="map-pin_1_2" data-name="map-pin (1)" transform="translate(-1.5 0.5)">
+      <path id="Path_5" data-name="Path 5" d="M29.913,14.457c0,10.466-13.457,19.437-13.457,19.437S3,24.923,3,14.457a13.457,13.457,0,0,1,26.913,0Z" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="4.524" cy="4.524" r="4.524" transform="translate(12.049 10.049)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
